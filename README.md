@@ -1,5 +1,7 @@
 # Dynamic Channel Propagation
-The code for the contributed paper "Learning to Prune in Training via Dynamic Channel Propagation" accepted by [ICPR-2020](https://www.micc.unifi.it/icpr2020/). In this paper, we propose a novel network training mechanism called "dynamic channel propagation" to prune the deep neural networks during the training period. Here we show the source code of our scheme.
+The code for the contributed paper "Learning to Prune in Training via Dynamic Channel Propagation" accepted by [ICPR-2020](https://www.micc.unifi.it/icpr2020/). In this paper, we propose a novel network training mechanism called "dynamic channel propagation" to prune the deep neural networks during the training period. Note that this is a research project and by definition is unstable. Please write to us if you find something not correct or strange. *We are sharing the codes under the condition that reproducing full or part of codes must cite the paper.*
+
+Here we show the source code of our scheme.
 ## Preliminalies
 ### Environment
 Our code is based on the deep-learning framework [Pytorch](https://pytorch.org/) and strongly reference to its official [examples](https://github.com/pytorch/examples). 
